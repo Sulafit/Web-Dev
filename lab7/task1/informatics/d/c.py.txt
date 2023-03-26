@@ -1,0 +1,11 @@
+p = 0
+a = []
+
+for i in range(int(input("Введите кол-во чисел: "))):
+    n = int(input("Введите каждое число отдельно: "))
+    a.append(n)
+    if n > 0:
+        p += 1
+        
+print(a)
+print("Положительных: ", p)

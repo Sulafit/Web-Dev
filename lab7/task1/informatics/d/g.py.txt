@@ -1,0 +1,10 @@
+a = input()<br>
+a = a.split()<br>
+a = [int(i) for i in a]<br>
+for i in range(len(a)//2):<br>
+    b = a[i]<br>
+    a[i] = a[len(a)-i-1]<br>
+    a[len(a)-i-1] = b<br>
+#a.reverse()<br>
+#a = a[::-1]<br>
+print(a)

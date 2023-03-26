@@ -1,0 +1,10 @@
+a, b = map(float, input().split())             
+	
+if a > b:           
+	
+    M = a     
+	
+else:                  
+	
+    M = b           
+print("Maximum", M)

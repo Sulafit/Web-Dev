@@ -1,0 +1,9 @@
+n = int(input())
+i = 1
+k = 0
+while k <= n:
+    k = i ** 2
+    i = i + 1
+    if k > n:
+        break
+    print(k)

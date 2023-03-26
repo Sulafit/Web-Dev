@@ -1,0 +1,6 @@
+k, n = 2, int(input())
+ 
+while k < n:
+    k **= 2
+ 
+print("YES" if k == n else "NO")
