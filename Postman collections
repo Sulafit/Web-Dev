@@ -1,0 +1,11 @@
+http://127.0.0.1:8000/api/companies/
+
+http://127.0.0.1:8000/api/companies/1/
+
+http://127.0.0.1:8000/api/companies/2/vacancies/
+
+http://127.0.0.1:8000/api/vacancies/
+
+http://127.0.0.1:8000/api/vacancies/2/
+
+http://127.0.0.1:8000/api/vacancies/top_ten/
